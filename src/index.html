@@ -1,0 +1,201 @@
+---
+layout: default
+title: CarMony | Home
+---
+<a class="toTop" id="toTop"></a>
+<section class="section-cubs">
+    <div class="container">
+        <div class="cubes">
+            <div class="cubes-container">
+                <div class="cubes-container__left">
+                    <div class="cubes-container__text"><span>Получили займ?!</span>— <br> поддержите нас видео отзывом </div>
+                    <a class="btnNew" href="">ОТПРАВИТЬ ВИДЕО ОТЗЫВ</a>
+                </div>
+                <div class="cubes-container__right">
+                    <div class="cub-little"></div>
+                    <div class="cub-big"></div>
+                    <div class="cub-little"></div>
+                    <div class="cub-little"></div>
+                    <div class="cub-little"></div>
+                    <div class="cub-big"></div>
+                    <div class="cub-little"></div>
+                </div>
+                <a class="btnNew btnNew-cub" href="">ОТПРАВИТЬ ВИДЕО ОТЗЫВ</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-safe">
+    <div class="container">
+        <div class="slider-text">
+            <div class="slider-title__strip"></div>
+            <h2 class="slider-title">С нами безопасно</h2>
+        </div>
+        <div class="carousel">
+            <div class="carousel__item item-carousel item-carousel_bg-pink">
+                <div class="item-carousel__img">
+                    <img src="assets/images/carousel/SSL icon.png" alt="Иконка сертификата">
+                </div>
+                <div class="item-carousel__title">SSL сертификат</div>
+                <div class="item-carousel__subtitle">Сертификат обеспечивает защиту ваших данных, безопасность платежей 
+                и предотвращает несанкционированный доступ к информации</div>
+
+            </div>
+            <div class="carousel__item item-carousel item-carousel_bg-green">
+                <div class="item-carousel__img">
+                    <img src="assets/images/carousel/Crystal icon.png" alt="Иконка документа с лупой">
+                </div>
+                <div class="item-carousel__title">Все прозрачно</div>
+                <div class="item-carousel__subtitle">Мы ведем прозрачную политику, вся информация о стоимости и условиях открыто представлена на сайте
+                </div>
+
+            </div>
+            <div class="carousel__item item-carousel item-carousel_bg-pink">
+                <div class="item-carousel__img">
+                    <img src="assets/images/carousel/Personal Data.png" alt="Иконка бейджика">
+                </div>
+                <div class="item-carousel__title">Оператор персональных данных</div>
+                <div class="item-carousel__subtitle">Регистрация в РКН Приказ 
+                    № 387-нд от 03.11.2014</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-bank">
+    <div class="container">
+        <div class="bank__container">
+                <div class="bank-text__title">МЫ НЕ СТАРАЕМСЯ БЫТЬ БАНКОМ</div>
+                <div class="bank-text__subtitle">Лояльно относимся к кредитной истории или ее отсутствию</div>
+                <ul class="bank-text__list">
+                    <li class="bank-text__item"> Экономим ваше время</li>
+                    <li class="bank-text__item">Высокий уровень одобрения заявок</li>
+                    <li class="bank-text__item">Готовы помочь в трудной ситуации</li>
+                </ul>
+            <div class="bank__img">
+                <img src="assets/images/cards.png" alt="картинка банковских карт">
+            </div>
+            
+        </div>
+        <div class="bank__link">
+            <a class="btnNew" href="#">Оформить заявку</a>
+        </div>
+    </div>
+</section>
+
+<section class="section-aplications">
+    <div class="applications">
+        <div class="container">
+            <div class="applications-container">
+                <div class="applications-container__left">
+                    <div class="application-container__circle">
+                        <div class="applications-container__title">
+                            <div class="applications-container__numb">7957</div>
+                            заявок за сегодня
+                        </div>
+                        <div class="applications-container__subtitle">
+                            Мы работаем по всей России и каждый день рассматриваем более 3000 заявок на кредит. 
+                            75% наших клиентов получают заем!
+                        </div>
+                        <p>Внимание! Услуга обработки заявки платная и составляет от 11 до 499 руб. раз в 5 дней. Подробная информация размещена в разделе <a href="#"> о сервисе.</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="applications-container__right">
+                    <img src="assets/images/map.png" alt="Карта">
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-slider">
+    
+        <div class="container">
+            <div class="slider-text">
+                <div class="slider-title__strip"></div>
+                <h2 class="slider-title">Оформите заявку уже сейчас</h2>
+            </div>
+            <div class="slider-subtitle">
+                Первый займ без комиссии!
+            </div>
+                <div class="slider-form">
+
+                    <div class="slider-form__container">
+                        <div class="slider-form__content">
+                            <input type="number" class="numberInput"min="10000" placeholder="10000" onchange="fnRes()">
+                            <div id="slider" class="slider-p" list="number"></div>
+                            <datalist class="range__list" id="number">
+                                <option class="range__opt ">10 000 ₽</option> 
+                                <option class="range__opt">30 000 ₽</option> 
+                                <option class="range__opt">50 000 ₽</option> 
+                                <option class="range__opt">70 000 ₽</option> 
+                                <option class="range__opt">90 000 ₽</option> 
+                            </datalist>
+                            
+                        </div>
+                    </div>
+                    <div class="slider-form__container">
+                        <div class="slider-form__content">
+                            <input type="number" class="ageInput" id="ageInput" min="1" onchange="fnRes()" >
+                            <div id="age" class="slider-p" list="number"></div>
+                        </div>
+                    </div> 
+                    <p>Обязаюсь вернуть <span id="res"></span > рублей до <span id="dataSpan"></span></p>      
+                    <a class="btnNew">Офорить заявку</a>          
+                </div>        
+        </div>
+</section>
+
+<section class="section-map">
+    <div class="container">
+        <div class="section-map__container">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.669597207709!2d37.60444392067636!3d55.752609705528556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a4def809695%3A0x20ac8985054897f!2z0YPQuy4g0JLQvtC30LTQstC40LbQtdC90LrQsCwg0JzQvtGB0LrQstCwLCAxMTkwMTk!5e0!3m2!1sru!2sru!4v1650875162039!5m2!1sru!2sru" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+            <div class="section-map__content map-content">
+                <div class="map-content__box">
+                    <div class="map-content__item">
+                        <div class="map-content__img">
+                            <img src="assets/images/map/loc.png" alt="">
+                        </div>
+                        <div class="map-content__text">
+                            <div class="map-content__title">Адрес офиса</div>
+                            <div class="map-content__subtitle">Головной офис: 119019, г. Москва, ул. Воздвиженка д. 9, стр. 2, пом. 1</div>
+                        </div>
+                    </div>
+                    <div class="map-content__item">
+                        <div class="map-content__img">
+                            <img src="assets/images/map/tel.png" alt="">
+                        </div>
+                        <div class="map-content__text">
+                            <div class="map-content__title">Телефон горячей линии</div>
+                            <div class="map-content__subtitle">8 800 600-93-93</div>
+                        </div>
+                    </div>
+                    <div class="map-content__item">
+                        <div class="map-content__img">
+                            <img src="assets/images/map/mail.png" alt="">
+                        </div>
+                        <div class="map-content__text">
+                            <div class="map-content__title">E-mail </div>
+                            <div class="map-content__subtitle">support@carmoney.ru</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-content__p">
+                    <p>Внимание! Заявки принимаются
+                        только через анкету на сайте!</p>
+                </div>
+                <a class="btnNew" href="#">Оформить заявку</a>
+            </div>
+            </div>   
+        </div>
+    
+    </div>
+
+</section>
+

@@ -1,0 +1,37 @@
+@import "vars";
+@import "font";
+@import "vendor/reset";
+@import "vendor/nouislider";
+@import "vendor/slick";
+//@import "vendor/slick-theme";
+
+
+body {
+    
+    font-size: 21px;
+    color: white;
+    font-family: Circe;
+}
+*,
+*:after,
+*:before{
+    box-sizing: border-box
+}
+/*blocks*/
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/page";
+@import "blocks/burger";
+@import "blocks/responsive-tabs";
+@import "blocks/bank";
+@import "blocks/tabs-container";
+@import "blocks/back_to_top";
+@import "blocks/cubes";
+@import "blocks/applications";
+@import "blocks/section";
+@import "blocks/slider";
+@import "blocks/section-map";
+@import "blocks/footer";
+@import "blocks/footer-4";
+@import "blocks/section-safe";

@@ -1,0 +1,25 @@
+
+.toTop{
+    height: 50px;
+    width: 50px;
+    color: $white;
+    background-color: $pink;
+    position: fixed;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 900;
+    bottom: 56px;
+    right: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
+    &:hover{
+        background-color: darken($pink, 10%);
+    }
+	
+    &::before {
+        content: "\1431";
+    }
+}

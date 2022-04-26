@@ -1,0 +1,101 @@
+
+.bank__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    
+    @media screen and (max-width: 981px){
+        grid-template-columns:  1fr;
+        grid-template-rows: repeat(4, auto);
+        justify-items: center;
+    }
+}
+.bank-text__title {
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 130.2%;
+    color: $pink;
+    @media screen and (max-width: 981px){
+    }
+    @media screen and (max-width: 480px){
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        color: $pink;
+        margin-bottom: 10px;
+    }
+}
+.bank-text__subtitle {
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:2 ;
+    grid-row-end:3;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130.2%;
+    @media screen and (max-width: 981px){
+    }
+    @media screen and (max-width: 480px){
+        font-weight: 350;
+        font-size: 14px;
+        line-height: 130.2%;    
+        margin-bottom: 10px;   
+    }
+}
+.bank-text__list {
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:3 ;
+    grid-row-end:4 ;
+    align-self: center;
+    padding-left: 20px;
+    border-left:  2px solid #ACCE23;
+    margin-bottom: 10px;
+    @media screen and (max-width: 981px){
+        grid-row-start:5 ;
+        grid-row-end:6;
+    }
+}
+.bank-text__item {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 57px;
+    @media screen and (max-width: 480px){
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 190.2%;      
+    }
+}
+.bank__img {
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+    max-width: 610px;
+    max-height: 450px;
+    @media screen and (max-width: 981px){
+        grid-column-start:1 ;
+        grid-column-end:2 ;
+        grid-row-start:3 ;
+        grid-row-end:4 ;
+    }
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    @media screen and (max-width: 480px){
+        max-width: 310px;
+        
+    }
+}
+.bank__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

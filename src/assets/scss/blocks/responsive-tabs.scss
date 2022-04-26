@@ -1,0 +1,64 @@
+
+  .tabs {
+    display: flex;
+  } 
+  .tabs li:not(:last-child) {
+    margin-right: 7px;
+  } 
+  .tabs li a {
+    display: block;
+    position: relative;
+    top: 4px;
+    padding: 10px 25px;
+    background: white;
+    opacity: 0.7;
+    transition: all 0.1s ease-in-out;
+  }
+  .tabs li.active a,
+  .tabs li a:hover {
+    opacity: 1;
+    top: 0;
+    background-color: $pink;
+    color: $white;
+  } 
+  .tabs-content {
+    position: relative;
+    z-index: 200;
+    padding: 25px;
+    border-radius: 0 4px 4px 4px;
+    
+  }
+  .tabs-panel {
+    display: none;
+    
+  } 
+  .tabs-panel.active {
+    display: block;
+    overflow: auto;
+  }
+  .red{
+    color: red;
+    bottom: #202020;
+  }
+  @media screen and (max-width: 600px) {
+    .tabs {
+      flex-direction: column;
+    }     
+    .tabs li {
+      width: 100%;
+    }   
+    .tabs li:not(:last-child) {
+      margin-right: 0;
+    }  
+    .tabs li a {
+      border-radius: 0;
+      opacity: 1;
+      top: 0;
+    }
+    .tabs-content {
+      border-radius: 0;
+      @media screen and (max-width: 390px){
+        padding: 5px;
+    }
+  }
+}

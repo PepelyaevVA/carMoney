@@ -1,0 +1,80 @@
+.header{
+    z-index: $z-index-header;
+    background-color: $white;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    &__container{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+}
+.header__sticky{
+}
+.header-content{
+    transform: translateX(-200%);
+    transition: transform 0.8s linear;
+    overflow: auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+}
+.header-content_active{
+ transform: translateX(0);
+  
+}
+
+.header-menu {  
+   // position: relative;
+   // top: 0;
+   // margin-bottom: 100px;
+}
+.menu {
+}
+.menu__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu__item{
+    margin: 30px;
+    @media screen and (max-width: 600px){
+        margin: 5px;
+    }
+}
+.menu__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:$white ;
+    padding: 16px 16px;
+    color: $pink;
+    border-radius: 10px;
+    font-family: inherit;
+    transition: 0.8s;
+    border: 3px solid $pink;
+    &:hover{
+        background-color: $pink;
+        color: $white;
+    }
+}
+.header_bg{
+    background: linear-gradient(
+    167deg,
+    hsl(0deg 0% 90%) 1%,
+    hsl(0deg 0% 91%) 44%,
+    hsl(0deg 0% 92%) 50%,
+    hsl(0deg 0% 94%) 51%,
+    hsl(0deg 0% 95%) 50%,
+    hsl(0deg 0% 96%) 49%,
+    hsl(0deg 0% 97%) 50%,
+    hsl(0deg 0% 99%) 56%,
+    hsl(0deg 0% 100%) 99%
+  );
+}
