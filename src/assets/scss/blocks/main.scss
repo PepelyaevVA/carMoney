@@ -1,3 +1,43 @@
 .main{
    // padding-top: 100px;
 }
+.btnNew {
+   text-decoration: none;
+   cursor: pointer;
+   text-transform: uppercase;
+   display: inline-block;
+   color: $white;
+   background-color: $pink;
+   transition: 0.5s;
+   padding: 10px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 28px;
+   letter-spacing: 0.1em;
+   border-radius: 6px;
+   
+   svg{
+      transition: 0.5s;
+      margin-right: 10px;
+      
+   }
+   &:hover{
+   background-color: darken($pink, 10%);
+   }
+   &_white{
+      display: flex;
+   align-items: center;
+      background-color: white;
+      border: 2px solid $pink ;
+      color: $pink;
+      
+      &:hover{
+         background-color: $pink;
+         color: white;
+      }
+   }
+  &:hover svg path{
+   stroke: white;
+}
+
+}

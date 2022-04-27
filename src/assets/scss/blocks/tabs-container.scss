@@ -186,26 +186,6 @@
     color: #333333;
 }
 
-.btnNew {
-    text-decoration: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    display: inline-block;
-    color: $white;
-    background-color: $pink;
-    transition: 0.5s;
-    padding: 10px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    letter-spacing: 0.1em;
-    border-radius: 6px;
-    margin-right: 12px;
-    margin-bottom: 10px;
-    &:hover{
-    background-color: darken($pink, 10%);
-    }
-}
 .btnNew_blue {
     background-color: #279ED1;
     &:hover{
