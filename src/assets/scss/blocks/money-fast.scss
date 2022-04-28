@@ -1,0 +1,45 @@
+
+.money-fast__carousel{
+    .slick-slide{
+        width: 280px;
+        height: 340px;
+        margin: 10px 15px;
+        @media screen and (max-width: 350px){
+            width: 250px;
+        }
+    }
+}
+
+
+
+.money-fast__item {
+    background: #FFFFFF;
+    box-shadow: 0px -2px 8px rgba(246, 94, 100, 0.2), 0px 4px 8px rgba(246, 94, 100, 0.2);
+    border-radius: 20px;
+    padding: 20px 40px;
+    width: 280px;
+    height: 340px;
+    position: relative;
+    @media screen and (max-width: 350px){
+        padding: 10px 20px;
+    }
+
+}
+.money-fast__title {
+    font-size: 24px;
+    line-height: 120.4%;
+    text-align: center;
+}
+.money-fast__img {
+    position: relative;
+    margin: 20px 0;
+}
+.money-fast__subtitle {
+    
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 122.2%;
+}
+.border-green{
+    box-shadow: 0px -2px 8px rgba(172, 206, 35, 0.2), 0px 4px 8px rgba(172, 206, 35, 0.2);
+}

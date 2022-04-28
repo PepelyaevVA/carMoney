@@ -1,0 +1,30 @@
+
+.baner-content {
+    background: rgba(246, 246, 246, 0.86);
+    box-shadow: 1px 4px 15px rgba(246, 94, 100, 0.35);
+    backdrop-filter: blur(16.7407px);
+    border-radius: 10px;
+    padding: 29px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.baner-content__text {
+    display: flex;
+    flex-direction: column;
+}
+.baner-content__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+.baner-content__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+.baner-content__img {
+    height: 96px;
+    width: 96px;
+}

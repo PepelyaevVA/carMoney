@@ -1,10 +1,13 @@
 .service-Job__carousel {
 }
 .job-carousel {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 10px 0;
 }
 .job-carousel__item {
-    max-width: 240px;
+    width: 240px;
     height: 300px;
     padding: 27px 16px;
     background: rgba(244, 244, 244, 0.8);
@@ -12,8 +15,26 @@
     border-radius: 20px;
     min-height: 240px;
     margin: 10px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 5px;
+    &:not(:last-child)::after{
+        content: "\2026";
+        position: absolute;
+        font-size: 60px;
+        top: 35%;
+        right: -60px;
+        color: $pink;
+        @media screen and (max-width: 509px){
+            display: none;
+        }
+    }
 }
 .job-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   
 }
 .job-item__title {
@@ -26,9 +47,9 @@
 .job-item__img {
     margin: 10px auto;
     width: 100%;
-    & img{
-        margin: 0 auto;
-    }
+    display: flex;
+    align-items: center;
+    
 }
 .job-item__subtitle {
     font-weight: 350;

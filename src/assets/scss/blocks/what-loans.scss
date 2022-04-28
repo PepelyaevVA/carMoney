@@ -1,0 +1,148 @@
+.what-loans__carousel {
+}
+.loans-carousel {
+}
+.loans-carousel__item {
+    max-width: 500px;
+    height: 400px;
+    padding: 20px 35px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    @media screen and (max-width: 506px){
+        padding: 10px 15px;
+    }
+}
+.loans-carousel__item_pink {
+ //   background: rgba(246, 94, 100, 0.5);
+}
+.loans-carousel__item_green {
+  //  background: rgba(172, 206, 35, 0.5);
+}
+.loans-carousel__img {
+}
+.loans-carousel__container {
+    flex: 0 1 175px;
+    height: 170px;
+    background: #FEFEFE;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15), 0px 12px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.loans-carousel__container_top{
+    flex: 1 1 auto;
+    padding: 22px 20px 13px 20px;
+    border-bottom:  3px solid #F4F5F5;;
+
+}
+.loans-carousel__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $pink;
+    margin-bottom: 11px;
+}
+.loans-carousel__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.loans-carousel__text{
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 122.2%;
+    @media screen and (max-width: 506px){
+        display: none;
+    }
+}
+.loans-carousel__btn {
+    transition: 0.8s;
+    width: 100%;
+    display: flex;
+    a{
+        display: flex;
+        border-radius: 10px;
+        transition: 0.8s;
+        width: 100%;
+        padding: 5px 10px;
+        text-align: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+        color: $pink;
+        text-decoration: none;
+        
+    } 
+    
+    &:hover{
+        color: #F4F5F5;
+    }
+
+}
+.loans-carousel__btn_img{
+    margin-left: 20px;
+    height: 15px;
+    width: 15px;
+    & img{
+        width: 100%;
+    }
+}
+.loans-carousel__btn_pink a{
+    &:hover{
+        background-color:rgba(246, 94, 100, 0.5) ;
+        color: #FEFEFE;
+    }
+}
+
+.loans-carousel__btn_green a{
+    &:hover{
+        background-color:rgba(172, 206, 35, 0.5);
+        color: #FEFEFE;
+    }
+}
+
+.bg-1{
+    background-color: rgba(246, 94, 100, 0.5);
+    background-image: url('/assets/images/what-loans/Cone 1.png')  ;
+    background-repeat: no-repeat;
+    background-position:170px 0px;
+    @media screen and (max-width: 460px){
+        background-position:80px -50px;
+    }
+    @media screen and (max-width: 460px){
+        background-position: -25px -10px;
+        background-size: 246px 226px;
+    }
+
+}
+.bg-2{
+    background-color:rgba(172, 206, 35, 0.5);
+    background-image: url('/assets/images/what-loans/Rocket 1 1.png')  ;
+    background-repeat: no-repeat;
+    background-position:220px 50px;
+    @media screen and (max-width: 460px){
+        background-position: 139px 8px;
+        background-size: 216px 353px;
+    }
+}
+.bg-3{
+    background-color: rgba(246, 94, 100, 0.5);
+    background-image: url('/assets/images/what-loans/Rocket 3 1.png')  ;
+    background-repeat: no-repeat;
+    background-position:180px 15px;
+    @media screen and (max-width: 460px){
+        background-size: 197px 288px;
+        background-position: 139px 8px;
+    }
+}
+.bg-4{
+    background-color: rgba(172, 206, 35, 0.5);
+    background-image: url('/assets/images/what-loans/Astronaut 3 1.png')  ;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 460px){
+        background-size: contain;
+    }
+}
