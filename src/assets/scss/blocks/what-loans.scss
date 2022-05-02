@@ -1,16 +1,37 @@
 .what-loans__carousel {
+    .slick-slide {
+        margin: 0 10px;
+    }
 }
 .loans-carousel {
 }
 .loans-carousel__item {
-    max-width: 500px;
-    height: 400px;
+    min-width: 0;
+    width: 410px;
+    height: 397px;
     padding: 20px 35px;
     display: flex;
     align-items: flex-end;
     border-radius: 20px;
     @media screen and (max-width: 506px){
         padding: 10px 15px;
+    }
+    @media screen and (max-width: 460px){
+        max-width: 280px;
+    }
+}
+.slick-active{
+    align-self: flex-end;
+}
+.what-loans__carousel{
+    .slick-track {
+        margin: 0 10px;
+        width: 410px;
+    }
+}
+.what-loans__carousel{
+   .slick-active:first-child{
+        align-self: center;
     }
 }
 .loans-carousel__item_pink {
@@ -33,7 +54,7 @@
 .loans-carousel__container_top{
     flex: 1 1 auto;
     padding: 22px 20px 13px 20px;
-    border-bottom:  3px solid #F4F5F5;;
+ 
 
 }
 .loans-carousel__title {
@@ -58,6 +79,7 @@
     }
 }
 .loans-carousel__btn {
+    border-top:  3px solid #F4F5F5;
     transition: 0.8s;
     width: 100%;
     display: flex;
@@ -79,6 +101,7 @@
     
     &:hover{
         color: #F4F5F5;
+        border: none;
     }
 
 }
@@ -92,14 +115,14 @@
 }
 .loans-carousel__btn_pink a{
     &:hover{
-        background-color:rgba(246, 94, 100, 0.5) ;
+        background-color:rgba(246, 94, 100) ;
         color: #FEFEFE;
     }
 }
 
 .loans-carousel__btn_green a{
     &:hover{
-        background-color:rgba(172, 206, 35, 0.5);
+        background-color:rgba(172, 206, 35);
         color: #FEFEFE;
     }
 }

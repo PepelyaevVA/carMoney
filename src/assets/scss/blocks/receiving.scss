@@ -7,13 +7,19 @@
 }
 .receiving__carousel {
     padding: 70px 0;
+    .slick-slide{
+        margin: 0 27px;
+        @media screen and (max-width: 410px){
+            margin: 0 15px;
+        }
+    }
 }
 .receiving-carousel .slick-slide{
     width: 330px;
     @media screen and (max-width: 410px){
         width: 280px;
     }
- } 
+} 
 
 .receiving-carousel__item {
     margin: 45px 45px 45px 45px;

@@ -1,11 +1,11 @@
 .section-cubs{
-padding: 60px 0;
+padding: 60px 0 107px 0;
 }
 .section-aplications{
 
 }
 .section-slider{
-
+padding-bottom: 52px;
 }
 .section-map{
     background-color: #FAFAFA;
@@ -13,10 +13,14 @@ padding: 60px 0;
 }
 .section-bank{
     padding: 40px 0;
-    background: linear-gradient(167deg, hsl(0deg, 0%, 90%) 1%, hsl(0deg, 0%, 91%) 44%, hsl(0deg, 0%, 92%) 50%, hsl(0deg, 0%, 94%) 51%, hsl(0deg, 0%, 95%) 50%, hsl(0deg, 0%, 96%) 49%, hsl(0deg, 0%, 97%) 50%, hsl(0deg, 0%, 99%) 56%, hsl(0deg, 0%, 100%) 99%);
+   /* background: linear-gradient(167deg, hsl(0deg, 0%, 90%) 1%, hsl(0deg, 0%, 91%) 44%, hsl(0deg, 0%, 92%) 50%, hsl(0deg, 0%, 94%) 51%, hsl(0deg, 0%, 95%) 50%, hsl(0deg, 0%, 96%) 49%, hsl(0deg, 0%, 97%) 50%, hsl(0deg, 0%, 99%) 56%, hsl(0deg, 0%, 100%) 99%);*/
+   background: linear-gradient(to bottom right, #fafafa 60%, #ffff 60%);
 }
 .main-slider{
     padding: 50px 0;
+}
+.service-Job{
+    padding-bottom: 52px;
 }
 .service-Job .container a{
     margin: 0 auto;
@@ -25,7 +29,9 @@ padding: 60px 0;
     padding: 70px 0;
     background: #FAFAFA;
 }
-
+.receiving{
+    padding-bottom: 50px;
+}
 .money-fast{
     padding: 70px 0;
     background: #FAFAFA;
@@ -40,4 +46,10 @@ padding: 60px 0;
 .approved-loan2{
     padding: 35px 0 50px 0;
     background: #FAFAFA;
+}
+.footer-2{
+    min-height: 132px;
+}
+.footer-3{
+   padding: 0 0 30px 0;
 }

@@ -3,6 +3,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.approved-loan{
+    .slider-title{
+       
+    }
+    .slider-text{
+        justify-content: center;
+    }
+}
 .approved-items {
 }
 .approved-item {
@@ -77,15 +85,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+   // justify-content: space-around;
 }
 
 .approved-mid__top {
+    height: 35px;
 }
 .approved-mid__mid {
     padding: 28px 0;
+    flex: 1 0 auto;
 }
 .approved-mid__bot {
+    align-content: flex-end;
     a{
         background: rgba(246, 94, 100, 0.8);
         border-radius: 10px;

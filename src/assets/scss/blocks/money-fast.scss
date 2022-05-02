@@ -1,5 +1,6 @@
 
 .money-fast__carousel{
+    margin-bottom: 3px;
     .slick-slide{
         width: 280px;
         height: 340px;
@@ -29,13 +30,22 @@
     font-size: 24px;
     line-height: 120.4%;
     text-align: center;
+    min-height: 50px;
 }
 .money-fast__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98px;
     position: relative;
     margin: 20px 0;
+    & img{
+        height: 100%;
+        object-fit: cover;
+    }
 }
 .money-fast__subtitle {
-    
+    text-align: center;
     font-weight: 300;
     font-size: 18px;
     line-height: 122.2%;

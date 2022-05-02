@@ -1,6 +1,6 @@
 .header{
     z-index: $z-index-header;
-    height: 100px;
+    height: 75px;
     background-color: $white;
     position: relative;
     top: 0;
@@ -82,13 +82,9 @@
     }
 }
 .header-menu_active{
-    
-        transform: translateX(0%);
-    
-
+    transform: translateX(0%);
 }
 .header-content{
-    
     transition: transform 0.8s linear;
     overflow: auto;
     position: absolute;
@@ -99,7 +95,6 @@
 .header-content_active{
 transform: translateX(0);
 }
-
 .header-menu {  
 }
 .menu {
@@ -135,7 +130,7 @@ transform: translateX(0);
     }
 }
 .header_bg{
-    background: linear-gradient(
+   /* background: linear-gradient(
     167deg,
     hsl(0deg 0% 90%) 1%,
     hsl(0deg 0% 91%) 44%,
@@ -146,7 +141,8 @@ transform: translateX(0);
     hsl(0deg 0% 97%) 50%,
     hsl(0deg 0% 99%) 56%,
     hsl(0deg 0% 100%) 99%
-);
+);*/
+background: linear-gradient(to bottom right, #fafafa 60%, #ffff 60%);
 }
 .header-bg-pink{
     transition: 00.8s;

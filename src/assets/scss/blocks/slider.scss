@@ -1,4 +1,19 @@
 
+// Слайдер основное//
+
+.slick-track{
+    display: flex;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slider{
+min-width:0;
+}
+
+
+
+
 
 .slider-text {
     display: flex;

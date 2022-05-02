@@ -2,13 +2,13 @@
 }
 .job-carousel {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 10px 0;
 }
 .job-carousel__item {
     width: 240px;
-    height: 300px;
+    min-height: 300px;
     padding: 27px 16px;
     background: rgba(244, 244, 244, 0.8);
     box-shadow: 7px 7px 8px rgba(246, 94, 100, 0.2);
@@ -18,13 +18,16 @@
     position: relative;
     top: 0;
     left: 0;
-    margin-right: 5px;
+  
+    &:not(:last-child){
+        margin-right: 85px;
+    }
     &:not(:last-child)::after{
         content: "\2026";
         position: absolute;
         font-size: 60px;
         top: 35%;
-        right: -60px;
+        right: -70px;
         color: $pink;
         @media screen and (max-width: 509px){
             display: none;
@@ -35,9 +38,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  
 }
 .job-item__title {
+    min-height: 48px;
     text-align: center;
     font-weight: 400;
     font-size: 20px;
@@ -45,10 +48,12 @@
     color: $pink;
 }
 .job-item__img {
+    height: 87px;
     margin: 10px auto;
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     
 }
 .job-item__subtitle {
