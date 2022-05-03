@@ -15,6 +15,9 @@
             line-height: 122.2%;
             color: $white;
             z-index: 1000;
+            @media screen and (max-width: 450px) {
+                text-align: center;
+            }
         }
     }
     &__container{
@@ -130,18 +133,6 @@ transform: translateX(0);
     }
 }
 .header_bg{
-   /* background: linear-gradient(
-    167deg,
-    hsl(0deg 0% 90%) 1%,
-    hsl(0deg 0% 91%) 44%,
-    hsl(0deg 0% 92%) 50%,
-    hsl(0deg 0% 94%) 51%,
-    hsl(0deg 0% 95%) 50%,
-    hsl(0deg 0% 96%) 49%,
-    hsl(0deg 0% 97%) 50%,
-    hsl(0deg 0% 99%) 56%,
-    hsl(0deg 0% 100%) 99%
-);*/
 background: linear-gradient(to bottom right, #fafafa 60%, #ffff 60%);
 }
 .header-bg-pink{

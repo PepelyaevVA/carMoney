@@ -70,7 +70,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: Circular;
+    font-family: Circe;
     color: #333333;
 }
 
@@ -881,7 +881,7 @@ textarea {
 body {
     font-size: 21px;
     color: white;
-    font-family: "Circe";
+    font-family: Circe, sans-serif;
 }
 
 *,

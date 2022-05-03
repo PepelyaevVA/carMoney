@@ -8,6 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 450px) {
+        flex-direction: column;
+    }
 }
 .baner-content__text {
     display: flex;
